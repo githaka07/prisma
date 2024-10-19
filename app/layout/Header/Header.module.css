@@ -24,7 +24,7 @@
     }
 }
 
-@media (min-width: 0px) and (max-width: 1536px) {
+@media (min-width: 768px) and (max-width: 1536px) {
     .header {
         padding-left: var(--spacing-xlg);
         padding-right: var(--spacing-xlg);
