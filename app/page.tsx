@@ -1,4 +1,4 @@
-import { Header } from '@layout';
+import { Header, Main } from '@layout';
 
 export default function Home() {
     return (
@@ -6,6 +6,9 @@ export default function Home() {
             <Header>
                 <></>
             </Header>
+            <Main>
+                <></>
+            </Main>
         </>
     );
 }
