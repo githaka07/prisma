@@ -1,5 +1,11 @@
+import { Header } from '@layout';
+
 export default function Home() {
-  return (
-    <></>
-  );
+    return (
+        <>
+            <Header>
+                <></>
+            </Header>
+        </>
+    );
 }
