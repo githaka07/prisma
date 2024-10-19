@@ -1,13 +1,13 @@
 import localFont from 'next/font/local';
 
-export const font = localFont({
+export const workSans = localFont({
     src: [
         {
-            path: '../../public/font/normal.ttf',
+            path: '../../public/fonts/work_sans/normal.ttf',
             style: 'normal',
         },
         {
-            path: '../../public/font/italic.ttf',
+            path: '../../public/fonts/work_sans/italic.ttf',
             style: 'italic',
         },
     ],
