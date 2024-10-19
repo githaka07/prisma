@@ -1,0 +1,23 @@
+:root {
+    /* font */
+    --font-sm: 0.5rem;
+    --font-md: 1rem;
+    --font-lg: 1.5rem;
+    /* spacing */
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xlg: 64px;
+    --spacing-xxlg: 128px;
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5px;
+    font-size: var(--font-md);
+}
