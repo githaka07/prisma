@@ -1,5 +1,5 @@
 import { Header, Main } from '@layout';
-import { Navigation } from '@ui';
+import { Navigation, NavigationItem } from '@ui';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,9 +11,15 @@ export default function Home() {
         <>
             <Header>
                 <Navigation>
-                    <p>Home</p>
-                    <p>About</p>
-                    <button>Account</button>
+                    <NavigationItem
+                        URL=''
+                        name='Home'
+                        active
+                    />
+                    <NavigationItem
+                        URL=''
+                        name='Docs'
+                    />
                 </Navigation>
             </Header>
             <Main>
