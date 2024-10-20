@@ -21,6 +21,7 @@
             "@fonts": ["./app/export/fonts.ts"],
             "@styles": ["./app/export/styles.ts"],
             "@layout": ["./app/export/layout.ts"],
+            "@ui": ["./app/export/ui.ts"],
             "@/*": ["./*"]
         }
     },

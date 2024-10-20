@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--spacing-sm);
+}
+
+.logo p {
+    font-size: var(--font-lg);
+    font-weight: 600;
+}
