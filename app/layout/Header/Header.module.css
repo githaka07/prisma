@@ -6,6 +6,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    gap: var(--spacing-lg);
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid var(--color-black-5);
 }
 
 @media (min-width: 0px) and (max-width: 384px) {
@@ -16,7 +20,7 @@
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 384px) and (max-width: 768px) {
     .header {
         padding-left: var(--spacing-lg);
         padding-right: var(--spacing-lg);

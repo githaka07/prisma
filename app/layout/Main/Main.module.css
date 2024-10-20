@@ -16,7 +16,7 @@
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 384px) and (max-width: 768px) {
     .main {
         padding-left: var(--spacing-lg);
         padding-right: var(--spacing-lg);
