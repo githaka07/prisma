@@ -9,5 +9,9 @@ declare global {
         name: string;
         active?: boolean;
     }
+    interface ButtonProps {
+        URL: string;
+        name: string;
+    }
 }
 export {};
